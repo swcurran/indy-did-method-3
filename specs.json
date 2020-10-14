@@ -1,0 +1,31 @@
+{
+  "specs": [
+    {
+      "title": "Spec-Up Example",
+      "logo": "https://ghcdn.rawgit.org/csuwildcat/spec-up/master/logo.png",
+      "spec_directory": "./single-file-spec",
+      "output_path": "./",
+      "source": {
+        "host": "github",
+        "account": "csuwildcat",
+        "repo": "spec-test"
+      }
+    },
+    {
+      "title": "Spec-Up Multi-File Example",
+      "logo": "https://ghcdn.rawgit.org/csuwildcat/spec-up/master/logo.png",
+      "spec_directory": "./multi-file-spec",
+      "markdown_paths": [
+        "header.md",
+        "abstract.md",
+        "getting-started.md",
+        "features.md"
+      ],
+      "source": {
+        "host": "github",
+        "account": "csuwildcat",
+        "repo": "spec-test"
+      }
+    }
+  ]
+}
